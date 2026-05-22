@@ -1,47 +1,134 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Classic Haircut",
+  "tagline": "Glendale barbershop on East Colorado Street.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "eyebrow": "GLENDALE · E COLORADO ST · OPEN SIX DAYS",
+    "heading": "Cut sharp. Stay sharp.",
+    "subheading": "A neighborhood barbershop on East Colorado Street, Glendale. Classic cuts, skin fades, beard work, and the kind of straight-razor finish the regulars come back for. Walk in or call ahead.",
+    "ctaText": "Reserve a chair",
+    "ctaLink": "tel:8185070742",
+    "image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1800&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "label": "The shop",
+    "heading": "The chair on Colorado.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Classic Haircut has been on East Colorado Street in Glendale for years. Two chairs, three barbers on rotation, and the kind of neighborhood you walk to instead of drive to.",
+      "We do classic men's cuts, scissor-over-comb, skin fades, low fades, line-ups, beard sculpting with the straight razor, and the hot-towel finish that's still part of the day's work here.",
+      "Walk in or call ahead. Six days a week, nine to seven. Closed Sundays. Cash and card, same price."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Classic Cut",
+      "description": "Scissor, clipper, or both. Your length, your finish. Hot-towel neck shave included. Thirty minutes.",
+      "price": "$25"
+    },
+    {
+      "title": "Skin Fade",
+      "description": "Bald fade blended through the top, straight-razor edge-up, clean neckline. Thirty-five minutes.",
+      "price": "$30"
+    },
+    {
+      "title": "Cut + Beard",
+      "description": "Full classic cut plus straight-razor beard work and hot-towel finish. Forty-five minutes.",
+      "price": "$42"
+    },
+    {
+      "title": "Kids' Cut · 12 & Under",
+      "description": "Same cut, smaller chair, ten dollars off. Pop in any time we're open.",
+      "price": "$18"
+    },
+    {
+      "title": "Senior Rate · 65 +",
+      "description": "Standing senior rate every chair, every day. ID gets the price.",
+      "price": "$20"
+    },
+    {
+      "title": "Buzz & Edge-up",
+      "description": "All-over single-guard buzz with a straight-razor edge-up. In and out in fifteen.",
+      "price": "$18"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Ardak P.",
+      "rating": 4,
+      "context": "Glendale regular",
+      "text": "Classic Haircut is the only barber I've trusted in three years. Same chair, same barber, every other Saturday. The line moves fast, the cuts are clean, and the price hasn't moved either."
+    },
+    {
+      "name": "Sevak A.",
+      "rating": 4,
+      "context": "Walk-in customer",
+      "text": "Walked in on a Tuesday afternoon and was out the door with the cleanest fade in twenty minutes. Now it's the only shop I go to on Colorado Street."
+    },
+    {
+      "name": "Davit T.",
+      "rating": 5,
+      "context": "Father + son",
+      "text": "Took my son here for his first real cut. They handed him a candy bar, made him laugh, and gave him a real men's cut. He asks to come back every other Saturday now."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 507-0742",
+    "email": "hello@classichaircutglendale.com",
+    "address": "1023 E Colorado St c, Glendale, CA 91205",
+    "mapEmbedQuery": "Classic Haircut, 1023 E Colorado St, Glendale, CA 91205",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "9:00 AM – 7:00 PM",
+      "Tuesday": "9:00 AM – 7:00 PM",
+      "Wednesday": "9:00 AM – 7:00 PM",
+      "Thursday": "9:00 AM – 7:00 PM",
+      "Friday": "9:00 AM – 7:00 PM",
+      "Saturday": "9:00 AM – 7:00 PM",
       "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    }
   },
+  "social": {},
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Classic Haircut — Glendale barbershop on East Colorado Street",
+    "description": "A neighborhood barbershop on East Colorado Street, Glendale. Classic cuts, skin fades, beard work, kids and senior rates. Open six days a week.",
+    "keywords": [
+      "Glendale barbershop",
+      "E Colorado St barber",
+      "Classic Haircut Glendale",
+      "skin fade Glendale"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#B91C1C",
+    "accentColor": "#18181B",
+    "fontFamily": "barlowcondensed-barlow-caveat"
+  },
+  "designSystem": {
+    "searchQuery": "midcentury chrome charcoal red signal classic american vintage sports barber",
+    "styleName": "Midcentury Barbershop Poster (crimson + charcoal)",
+    "pattern": "Hero + Features + CTA",
+    "palette": {
+      "primary": "#B91C1C",
+      "secondary": "#18181B",
+      "cta": "#B91C1C",
+      "accent": "#18181B",
+      "background": "#FAF4ED",
+      "text": "#18181B",
+      "muted": "#71717A",
+      "border": "#18181B",
+      "surface": "#FFFFFF"
+    },
+    "typography": {
+      "heading": "Barlow Condensed",
+      "body": "Barlow",
+      "label": "Caveat",
+      "mood": "Sports/Fitness condensed, athletic energy, midcentury American poster, crimson + charcoal"
+    },
+    "moves": [
+      "Barlow Condensed extra-black all-caps display — first Barlow Condensed in the build",
+      "Crimson + charcoal + cream tricolor — distinct from Colorado Barber's burgundy/steel/ivory",
+      "4-color animated barber-pole top stripe (crimson/white/charcoal/white) — visually distinct from Colorado Barber's 2-color pole",
+      "Charcoal about section sandwiched between cream hero + cream services — magazine alternation",
+      "Crimson-primary reviews section with charcoal-bordered cards — first crimson-bordered review block",
+      "Cream visit section with charcoal map (no filter) — distinct from prior visit blocks"
+    ]
   }
 }
